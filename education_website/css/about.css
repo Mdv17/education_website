@@ -1,4 +1,9 @@
 /*============================================= ACHIEVEMENTS ==================================================*/
+
+h1 {
+    font-size: 2.2rem;
+}
+
 .about__achievements {
     margin-top: 3rem;
 }
@@ -34,6 +39,7 @@
 
 .achievement__icon {
     background: var(--color-danger);
+    padding: 0.6rem;
     border-radius: 1rem;
     display: inline-block;
     margin-bottom: 2rem;
