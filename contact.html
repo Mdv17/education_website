@@ -46,7 +46,7 @@
                 </div>
                 <h2>Contact Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos veritatis ex?</p>
-                <ul>
+                <ul class="contact__details">
                     <li>
                         <i class="uil uil-phone-times"></i>
                         <h5>+27610226642</h5>
@@ -76,14 +76,14 @@
                 </ul>
             </aside>
 
-            <form>
+            <form action="https://formspree.io/f/xbjnzepq" method="POST" class="contact__form">
                 <div class="form__name">
                     <input type="text" name="First Name" placeholder="First Name" required>
                     <input type="text" name="Last Name" placeholder="Last Name" required>
-                    <input type="email" name="Email Addtess" placeholder="Your Email Addtess" required>
-                    <textarea name="Message"  rows="7" placeholder="Message" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
                 </div>
+                <input type="email" name="Email Address" placeholder="Your Email Addtess" required>
+                <textarea name="Message"  rows="7" placeholder="Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
         </div>
     </section>
